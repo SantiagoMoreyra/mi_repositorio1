@@ -177,31 +177,43 @@ p {
 .pEspecial{
     text-align: center;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    padding: 40px;
+    width: 90%;
 }
-.centrada{
-    align-self: center;
-}
+
 .derecha{
     align-self: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px) {
     h1{
         text-align: center;
         
     }
    
    img{
-     width: 700px;
-     margin: 10px;
+    width: 100%;
+     
+     margin: 30px;
      padding: 10px;
+     align-items: center;
+   }
+   .iconos{
+       width: 45px;
+       margin: auto;
+       align-items: center;
+   }
+   .logo{
+       width:100px;
+       margin: auto;
+       align-items: center;
    }
    .centrada{
       align-items: center;
-      margin:20px;
-      padding: 20px;
+      margin:10px;
+      padding: 10px;
   }
   .div img{
    width: auto;
@@ -211,8 +223,7 @@ p {
       grid-template-columns: 80%;
       border: black;
       cursor: pointer;
-      margin: 20px;
-      padding: 20px;
+  
     
       
   }
@@ -221,6 +232,197 @@ p {
       background: white;
       padding: 0em;
       border: black;
+  }
+  
+  .gridTres{
+      display: grid;
+      grid-template-columns: 100%;
+      border: black;
+      padding: 20px;
+      margin: 30px;
+  
+  }
+  .gridTres div{
+      background: white;
+      padding: 0em;
+      text-align: center;
+      align-items: center;
+      border: black;
+      margin: 0em;
+  
+  }
+  .div h2 a{
+      margin: 0em;
+      padding: 0em;
+  }
+  .centradaEspecial{
+      align-items: center;
+      margin: 1em ;
+      padding: 0px;
+      justify-content: center;
+  }
+  .gridDestacados{
+      display: grid;
+      grid-template-columns: 100%;
+      border: black;
+      padding: 0em;
+  
+  }
+  
+  .gridDestacados div{
+      background: white;
+      padding: 0em;
+      text-align: center;
+      align-items: center;
+      border: black;
+      margin: 0em;
+  }
+  
+  }
+  
+  .division{
+      margin: 60px;
+      padding: 10px;
+  }
+p{
+    font-family: gabriola;
+  }
+  .container1{
+      width: 100%;
+      max-width: 1200px;
+      height: 430px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+      padding: -10px;
+
+  }
+  .container1 .card{
+      width: 350px;
+      height: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      margin: 20px;
+      text-align: center;
+      transition: all 0.025s;
+}
+.container1 .card:hover{
+    transform: translatey(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+.container2 .card{
+    width: 330px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.025s;
+}
+.container2 .card:hover{
+  transform: translateX(10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+:root{
+    --facebook: blue;
+    --instagram: red;
+}
+.redes_container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.redes_container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+}
+.redes{
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+}
+.redes h2{
+    font-family: gabriola;
+    text-align: auto;
+    font-weight: bold;
+
+}
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    margin: 50px;
+}
+.sociales li{
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+
+}
+@media screen and (max-width: 800px) {
+    h1{
+        text-align: center;
+        
+    }
+   
+   img{
+     width: 700px;
+     margin: 30px;
+     padding: 10px;
+     align-items: center;
+   }
+   .iconos{
+       width: 45px;
+       margin: auto;
+       align-items: center;
+   }
+   .logo{
+       width: 100px;
+   }
+   .centrada{
+      align-items: center;
+      margin:10px;
+      padding: 10px;
+  }
+  .div img{
+   width: auto;
+  }
+  .grid{
+      display: grid;
+      grid-template-columns: 80%;
+      border: black;
+      cursor: pointer;
+      
+ }
+  
+  .grid div{
+      background: white;
+      padding: 0em;
+      border: black;
+    
   }
   
   .gridTres{
@@ -251,10 +453,9 @@ p {
   }
   .gridDestacados{
       display: grid;
-      grid-template-columns: 80%;
+      grid-template-columns: 100%;
       border: black;
-      padding: 10px;
-      margin: 10px;
+      padding: 0em;
   
   }
   
@@ -266,7 +467,112 @@ p {
       border: black;
       margin: 0em;
   }
+  
+  }
+  
+  .division{
+      margin: 60px;
+      padding: 10px;
+  }
+p{
+    font-family: gabriola;
+  }
+  .container1{
+      width: 100%;
+      max-width: 1200px;
+      height: 430px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+      padding: -10px;
+
+  }
+  .container1 .card{
+      width: 350px;
+      height: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      margin: 20px;
+      text-align: center;
+      transition: all 0.025s;
 }
+.container1 .card:hover{
+    transform: translatey(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container2{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+.container2 .card{
+    width: 330px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.025s;
+}
+.container2 .card:hover{
+  transform: translateX(10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+:root{
+    --facebook: blue;
+    --instagram: red;
+}
+.redes_container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.redes_container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+}
+.redes{
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+}
+.redes h2{
+    font-family: gabriola;
+    text-align: auto;
+    font-weight: bold;
+
+}
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    margin: 50px;
+}
+.sociales li{
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+
+}
+
 @media screen and (max-width: 480px) {
     h1{
         text-align: center;
@@ -275,8 +581,14 @@ p {
    
    img{
      width: 400px;
-     margin: 10px;
+     margin: 30px;
      padding: 10px;
+     align-items: center;
+   }
+   .iconos{
+       width: 45px;
+       margin: auto;
+       align-items: center;
    }
    .centrada{
       align-items: center;
@@ -400,7 +712,7 @@ p{
     transition: all 0.025s;
 }
 .container2 .card:hover{
-  transform: translateX(-15px);
+  transform: translateX(10px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 *{
@@ -422,34 +734,91 @@ p{
 .redes_container ul li{
     display: inline-block;
     margin: 0 5px;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
 }
 .redes{
     height: 200px;
-    background-color: #0e89e0;
-    padding: 10px;
+    background-color: white;
+    margin: auto;
+    padding: 0px;
 }
-.redes h2{
-    font-family: gabriola;
-    text-align: auto;
-    font-weight: bold;
 
-}
+
 .sociales{
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    margin: 0px;
 }
-.sociales li{
-    display: inline-block;
 
-}
-.sociales a{
+.sociales h2{
+    font-family: gabriola;
+    font-weight: bold;
     padding: 10px;
-}
-.espacio{
-    padding: 270px;
+    margin: 10px;
 }
 
+.sociales li{
+    display: inline-flex;
+    margin:0px;
+    padding: 0px;
+    align-items: center;
 
+}
+.alinear{
+    align-items: center;
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+ul li a:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+ul li a:after{
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: 0.5s;
+
+}
+ul li a:hover:before, ul li a:hover:after{
+transform: scaleX(1);
+
+}
+iframe{
+    width: 90%;
+    
+}
+li{
+    transition: all .7s;
+}
+li:hover{
+    background-color: lightskyblue;
+}
