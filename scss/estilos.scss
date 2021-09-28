@@ -194,7 +194,7 @@ p {
     }
    
    img{
-    width: 100%;
+    width: 900px;
      
      margin: 30px;
      padding: 10px;
@@ -236,10 +236,10 @@ p {
   
   .gridTres{
       display: grid;
-      grid-template-columns: 100%;
+      grid-template-rows: 100%;
       border: black;
       padding: 20px;
-      margin: 30px;
+      margin: 0px;
   
   }
   .gridTres div{
@@ -289,8 +289,8 @@ p{
   }
   .container1{
       width: 100%;
-      max-width: 1200px;
-      height: 430px;
+      max-width: 400px;
+      height: 400px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -315,7 +315,7 @@ p{
 .container2{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -382,6 +382,7 @@ p{
     padding: 0px;
 
 }
+
 @media screen and (max-width: 800px) {
     h1{
         text-align: center;
@@ -479,8 +480,8 @@ p{
   }
   .container1{
       width: 100%;
-      max-width: 1200px;
-      height: 430px;
+      max-width: 400px;
+      height: 400px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -573,6 +574,7 @@ p{
 
 }
 
+
 @media screen and (max-width: 480px) {
     h1{
         text-align: center;
@@ -635,8 +637,9 @@ p{
       padding: 0em;
   }
   .centradaEspecial{
+      width: auto;
       align-items: center;
-      margin: 1em ;
+      margin: 1em;
       padding: 0px;
       justify-content: center;
   }
@@ -668,8 +671,8 @@ p{
   }
   .container1{
       width: 100%;
-      max-width: 1200px;
-      height: 430px;
+      max-width: 100px;
+      height: 1200px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -693,8 +696,8 @@ p{
 }
 .container2{
     width: 100%;
-    max-width: 1200px;
-    height: 430px;
+    max-width: 400px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

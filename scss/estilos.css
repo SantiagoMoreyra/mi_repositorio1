@@ -225,7 +225,7 @@ p {
     text-align: center;
   }
   img {
-    width: 100%;
+    width: 900px;
     margin: 30px;
     padding: 10px;
     -webkit-box-align: center;
@@ -272,11 +272,11 @@ p {
   .gridTres {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
+    -ms-grid-rows: 100%;
+        grid-template-rows: 100%;
     border: black;
     padding: 20px;
-    margin: 30px;
+    margin: 0px;
   }
   .gridTres div {
     background: white;
@@ -333,8 +333,8 @@ p {
 
 .container1 {
   width: 100%;
-  max-width: 1200px;
-  height: 430px;
+  max-width: 400px;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +370,7 @@ p {
 .container2 {
   width: 100%;
   max-width: 1200px;
-  height: 430px;
+  height: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -572,8 +572,8 @@ p {
 
 .container1 {
   width: 100%;
-  max-width: 1200px;
-  height: 430px;
+  max-width: 400px;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -768,6 +768,7 @@ p {
     padding: 0em;
   }
   .centradaEspecial {
+    width: auto;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -808,8 +809,8 @@ p {
 
 .container1 {
   width: 100%;
-  max-width: 1200px;
-  height: 430px;
+  max-width: 100px;
+  height: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -844,8 +845,8 @@ p {
 
 .container2 {
   width: 100%;
-  max-width: 1200px;
-  height: 430px;
+  max-width: 400px;
+  height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
